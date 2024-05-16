@@ -15,5 +15,10 @@ class Movie {
     }
 }
 
+$matrix = new Movie("The Matrix", 1999, "Action");
+$godfather = new Movie("The Godfather", 1972, "Drama");
 
+echo $matrix->getInfoFilm();
+
+echo $godfather->getInfoFilm();
 ?>
